@@ -6,13 +6,13 @@ window = Tk()
 window.geometry("640x480")
 window.title("YouTube Video Downloader")
 
-background = PhotoImage(file="//home//abhishek//Downloads//back.png")
+background = PhotoImage(file="back.png")
 background_label = Label(window, image=background)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
 Label(window, text="Youtube Video Downloader", font=("Comic sans ms", "20", "normal"), bg= "#191970", fg = "red").pack(padx=10, pady=10)
 
-logo = PhotoImage(file="//home//abhishek//Downloads//youtube.png")
+logo = PhotoImage(file="youtube.png")
 window.iconphoto(False, logo)
 
 video_link = StringVar()
@@ -38,4 +38,27 @@ def video_download():
 Button(window, text="Download", font=("Comic sans ms", "15", "normal"), bg= "#191970", fg = "red", command=video_download).place(x=260, y=150)
 
 window.mainloop()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Created By ABHISHEK SRIVASTAVA
 
